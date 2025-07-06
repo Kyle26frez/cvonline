@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Blog - Votre Nom</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">Votre Nom</a></h1>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À Propos</a></li>
+                    <li><a href="projects.html">Projets</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="section-padding">
+        <div class="container">
+            <h2 class="text-center">Mon Blog</h2>
+            <p class="text-center">Mes réflexions, tutoriels et retours d'expérience sur le développement et la technologie.</p>
+
+            <div class="blog-list">
+                <!-- Exemple d'aperçu d'article de blog -->
+                <article class="blog-post-summary">
+                    <img src="https://placehold.co/300x200/4A90E2/FFFFFF?text=Article+1" alt="Image de l'article 1" class="blog-thumbnail">
+                    <div class="blog-summary-content">
+                        <h3><a href="blog/premier-article-exemple.html">Mon Premier Article de Blog : Les Bases du Web</a></h3>
+                        <p class="post-meta">Publié le 05 Juillet 2025 | Catégorie: Développement Web</p>
+                        <p class="post-excerpt">Dans cet article, j'explore les fondations du développement web, en abordant HTML, CSS et JavaScript et leur importance pour tout développeur...</p>
+                        <a href="blog/premier-article-exemple.html" class="btn btn-tertiary btn-small">Lire la suite &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="blog-post-summary">
+                    <img src="https://placehold.co/300x200/6C757D/FFFFFF?text=Article+2" alt="Image de l'article 2" class="blog-thumbnail">
+                    <div class="blog-summary-content">
+                        <h3><a href="blog/comprendre-git-github.html">Comprendre Git et GitHub pour les Développeurs</a></h3>
+                        <p class="post-meta">Publié le 28 Juin 2025 | Catégorie: Outils</p>
+                        <p class="post-excerpt">Un guide essentiel pour maîtriser le contrôle de version avec Git et collaborer efficacement sur GitHub...</p>
+                        <a href="blog/comprendre-git-github.html" class="btn btn-tertiary btn-small">Lire la suite &rarr;</a>
+                    </div>
+                </article>
+
+                <!-- Ajoutez d'autres aperçus d'articles ici en copiant la structure ci-dessus -->
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Votre Nom. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><img src="https://placehold.co/24x24/cccccc/333333?text=LI" alt="LinkedIn"></a>
+                <a href="#" aria-label="GitHub"><img src="https://placehold.co/24x24/cccccc/333333?text=GH" alt="GitHub"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
